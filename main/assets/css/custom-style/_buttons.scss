@@ -4,25 +4,27 @@
 
 // --------------------------------
 
-.btn { // style affecting all buttons
-  --btn-padding-y: var(--space-xxs); // padding top/bottom
-  --btn-padding-x: var(--space-sm); // padding left/right
-  --btn-radius: 0.25em; // border radius
-  --btn-font-size: 1em; // font size
+.btn {
+  --btn-font-size: 1em;
+  --btn-padding-x: var(--space-sm);
+  --btn-padding-y: var(--space-xxs);
+  --btn-radius: 0.25em;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  cursor: pointer;
+  text-decoration: none;
   line-height: 1.2;
+  @include fontSmooth;
   box-shadow: var(--shadow-xs);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: .2s;
-  
+  transition: all 0.2s ease;
+
   &:hover {
-    cursor: pointer;
     box-shadow: var(--shadow-sm);
   }
 
   &:focus {
-    outline: none;
     box-shadow: 0px 0px 0px 2px alpha(var(--color-contrast-higher), 0.15);
+    outline: none;
   }
 
   &:active {
@@ -33,7 +35,7 @@
 // themes
 .btn--primary {
   background-color: var(--color-primary);
-  color: var(--color-white);
+  color: var(--color-black);
 
   &:hover {
     background-color: var(--color-primary-dark);
@@ -45,16 +47,16 @@
 }
 
 .btn--subtle {
-  background-color: var(--color-contrast-lower);
-  color: var(--color-contrast-higher);
+  background-color: var(--color-contrast-high);
+  color: var(--color-black);
 }
 
 .btn--accent {
-  background-color: var(--color-accent);
-  color: var(--color-white);
+  background-color: var(--color-warning);
+  color: var(--color-black);
 
   &:hover {
-    background-color: var(--color-accent-dark);
+    background-color: var(--color-warning-dark);
   }
 
   &:focus {
@@ -63,14 +65,12 @@
 }
 
 // feedback
-.btn--disabled,
-.btn[disabled], 
-.btn[readonly] {
+.btn--disabled, .btn[disabled], .btn[readonly] {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-// sizes
+// size
 .btn--sm {
   font-size: 0.8em;
 }
