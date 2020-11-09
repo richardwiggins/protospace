@@ -10,13 +10,14 @@
   --btn-padding-y: var(--space-xxs);
   --btn-radius: 0.25em;
   background-color: var(--color-white);
-  color: var(--color-black);
+  color: var(--color-white);
   cursor: pointer;
   text-decoration: none;
   line-height: 1.2;
   @include fontSmooth;
   box-shadow: var(--shadow-xs);
   transition: all 0.2s ease;
+  font-family: var(--font-bold);
 
   &:hover {
     box-shadow: var(--shadow-sm);
