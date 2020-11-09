@@ -9,11 +9,11 @@
 	<script>
 		if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
 	</script>
-	<title>Get Started | CodyFrame</title>
+	<title>protospace – a space for the tech community in Milton Keynes to connect, collaborate and share knowledge.</title>
 </head>
 <body>
 	
-<section class="position-relative padding-y-xl">
+<section class="position-relative padding-y-md padding-y-xl@lg">
 	<div class="position-relative z-index-2">
 		<div class="container max-width-lg">
 			<div class="grid gap-sm">
@@ -28,25 +28,14 @@
 					<div class="text-component line-height-lg v-space-lg">
 						<p>Supported by MK Council, protospace is a new collaboration between <a href="https://madeinmk.com">Made in MK</a>, <a href="https://mkgeeknight.co.uk">MK Geek Night</a> and <a href="https://pooleyville.com">Pooleyville</a> to provide a dedicated physical and virtual space for the local tech community. Though this exciting new partnership, we want to champion the innovation happening in the local sector and create a fertile space for new collaborations and knowledge exchange.</p>
 						
-						<p>A series of curated events will commence in 2021 shaped around three umbrella themes of <span class="color-accent">Sustainability</span>, <span class="color-tertiary">Lifestyle</span> and <span class="color-secondary-lighter">Business</span>. Comprising talks, interviews, workshops, hackathons, pitches and networking, the programme will be delivered both online and in-person (when we are able to do so). We'll host a diverse range of industry leaders and creators, from near and far, exploring their ideas, experiences and work that have had, or hope to have, a positive impact on our lives.</p>
+						<p>A series of curated events will commence in 2021 shaped around three umbrella themes of <span class="border-accent border-bottom border-3">Sustainability</span>, <span class="border-tertiary border-bottom border-2">Lifestyle</span> and <span class="border-secondary border-bottom border-2">Business</span>. Comprising talks, interviews, workshops, hackathons, pitches and networking, the programme will be delivered both online and in-person (when we are able to do so). We'll host a diverse range of industry leaders and creators, from near and far, exploring their ideas, experiences and work that have had, or hope to have, a positive impact on our lives.</p>
 						
 						<p>As we move forward from a challenging year, our core aim is to support, inspire and provide opportunity to those who want to learn more about the tech industry, develop new skills and incubate ideas that benefit the broader Milton Keynes community.</p>
 
 					</div>
 				</div>
 				
-				<!-- <div class="col-10@md offset-2@md col-8@lg padding-y-lg">
-					<div class="text-component line-height-lg v-space-lg">
-						<h3>Want to find out more?</h3>
-						
-						<p>Enter your email address below to join our community and stay up to date with the latest.</p>
-
-					</div>
-				</div> -->
-				
-				
-			
-				<section class="newsletter col-8@sm col-6@md offset-2@md padding-bottom-lg" data-reveal-fx-delta="50">
+				<section class="newsletter col-8@sm col-6@md offset-2@md padding-bottom-lg reveal-fx reveal-fx--translate-up" data-reveal-fx-delta="50">
         <div class="emailoctopus-form-wrapper emailoctopus-form-unstyled null  ">
           <div class="text-component margin-bottom-md">            
             <h3>Want to find out more?</h3>
@@ -96,9 +85,11 @@
         </div>
         </section>
 
-				<div class="col-12">
-					<footer class="border-top border-contrast-higher border-opacity-10% padding-top-sm">
-						<p class="text-sm">Logos...</p>
+				<div class="col-10@md offset-2@md col-8@lg">
+					<footer class="border-top border-contrast-higher border-opacity-10% padding-top-sm text-component">
+						<p><span class="text-bold">Pooleyville</span> <span class="padding-x-xxxs">x</span> <span class="text-bold ws-nowrap">Made in MK</span> <span class="padding-x-xxxs">x</span> <span class="text-bold ws-nowrap">MK Geek Night</span> <span class="padding-x-xxxs">x</span> <span class="text-bold ws-nowrap">MK Council</span><br>
+            
+            <a href="" class="margin-top-xs text-sm inline-block">Find out more about the collaboration</a></p>
 					</footer>
 				</div>
 			</div>
