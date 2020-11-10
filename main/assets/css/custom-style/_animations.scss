@@ -1,0 +1,89 @@
+@keyframes svg-scale-up {
+  0% {
+	transform: scale(0);
+  }
+  100% {
+	transform: scale(1);
+  }
+}
+
+@keyframes svg-scale-down {
+	0% {
+		transform: scale(1.7);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes slide-in {
+	0% {
+		transform: translateX(-150px);
+		animation-timing-function: ease-out;
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.circle-tl,
+.circle-tr,
+.circle-bl,
+.circle-br,
+.logo-text {
+	fill: var(--color-white);
+}
+
+.logo-diamond,
+.logo-square {
+	fill: var(--color-black);
+}
+
+.circle-tl {
+	transform: scale(0);
+	animation: svg-scale-up 2s cubic-bezier(0,1.21,.94,-0.18) forwards;
+	transform-origin: 19.675px 19.675px;
+}
+
+.circle-br {
+	transform: scale(0);
+	animation: svg-scale-up 2s cubic-bezier(.28,1.33,.89,.22) forwards;
+	transform-origin: 59px 59px;
+	animation-delay: 0.3s;
+}
+
+.circle-tr {
+	transform: scale(0);
+	animation: svg-scale-up 2s cubic-bezier(.3,1.21,.89,-0.46) forwards;
+	transform-origin: 59px 19.675px;
+	animation-delay: 0.7s;
+}
+
+.circle-bl {
+	transform: scale(0);
+	animation: svg-scale-up 2s cubic-bezier(0,1.42,1,-0.53) forwards;
+	transform-origin: 19.675px 59px;
+	animation-delay: 0.45s;
+}
+
+// .logo-diamond {
+// 	transform: scale(0);
+// 	animation: svg-scale-up 0.3s ease-in-out forwards;
+// 	animation-delay: 3.5s;
+// 	transform-origin: 39.351px 39.351px;
+// }
+
+.logo-text {
+	animation: slide-in 0.3s ease-in-out forwards;
+	animation-delay: 3.5s;
+	opacity: 0;
+}
+
+.logo-square {
+	transform: scale(0);
+	animation: svg-scale-down 0.3s ease-in-out forwards;
+	animation-delay: 3s;
+	transform-origin: 39.351px 39.351px;
+}
