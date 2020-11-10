@@ -22,7 +22,7 @@ var scssFilesPath = 'main/assets/css/**/*.scss'; // scss files to watch
 function reload(done) {
   browserSync.reload();
   done();
-} 
+}
 
 gulp.task('sass', function() {
   return gulp.src(scssFilesPath)
