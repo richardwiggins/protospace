@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script>document.getElementsByTagName("html")[0].className += " js";</script>
-	<link id="codyframe" rel="stylesheet" href="assets/css/style.css?v=d55oppmkl">
+	<link id="codyframe" rel="stylesheet" href="assets/css/style.css?v=54s8s888">
 	<!-- browsers not supporting CSS variables -->
 	<script>
 		if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
@@ -18,21 +18,22 @@
   <meta property="og:url" content="https://protospace.uk">
   <meta property="og:title" content="protospace – connect • collaborate • share">
   <meta property="og:description" content="A space for the tech community in Milton Keynes to connect, collaborate and share knowledge.">
-  <meta property="og:image" content="assets/img/protospace-meta.png">
+  <meta property="og:image" content="/assets/img/protospace-meta.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://protospace.uk">
   <meta property="twitter:title" content="protospace – connect • collaborate • share">
   <meta property="twitter:description" content="A space for the tech community in Milton Keynes to connect, collaborate and share knowledge.">
-  <meta property="twitter:image" content="assets/img/protospace-meta.png">
+  <meta property="twitter:image" content="/assets/img/protospace-meta.png">
+  
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
@@ -54,7 +55,7 @@
 					<div class="text-component line-height-lg v-space-lg">
 						<p>Supported by MK Council, protospace is a new collaboration between <a href="https://madeinmk.com">Made in MK</a>, <a href="https://mkgeeknight.co.uk">MK Geek Night</a> and <a href="https://pooleyville.com">Pooleyville</a> to provide a dedicated physical and virtual space for the local tech community. Through this exciting new partnership, we want to champion the innovation happening in the local sector and create a fertile space for new collaborations and knowledge exchange.</p>
 						
-						<p>A series of curated events will commence in 2021 shaped around three umbrella themes of <span class="border-accent border-bottom border-3">Sustainability</span>, <span class="border-tertiary border-bottom border-2">Lifestyle</span> and <span class="border-secondary border-bottom border-2">Business</span>. Comprising talks, interviews, workshops, hackathons, pitches and networking, the programme will be delivered both online and in-person (when we are able to do so). We'll host a diverse range of industry leaders and creators, from near and far, exploring their ideas, experiences and work that have had, or hope to have, a positive impact on our lives.</p>
+						<p>A series of curated events will commence in 2021 shaped around three umbrella themes of <span class="dot-marker bg-accent" aria-hidden="true"></span> Sustainability, <span class="dot-marker bg-tertiary" aria-hidden="true"></span> Lifestyle and <span class="dot-marker bg-secondary" aria-hidden="true"></span> Business. Comprising talks, interviews, workshops, hackathons, pitches and networking, the programme will be delivered both online and in-person (when we are able to do so). We'll host a diverse range of industry leaders and creators, from near and far, exploring their ideas, experiences and work that have had, or hope to have, a positive impact on our lives.</p>
 						
 						<p>As we move forward from a challenging year, our core aim is to support, inspire and provide opportunity to those who want to learn more about the tech industry, develop new skills and incubate ideas that benefit the broader Milton Keynes community.</p>
 
