@@ -166,6 +166,6 @@
 
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script>
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js"></script>
-<script src="assets/js/scripts.js"></script>
+<script src="assets/js/scripts.min.js"></script>
 </body>
 </html>
