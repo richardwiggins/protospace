@@ -53,7 +53,7 @@
 
 				<div class="col-10@md offset-2@md col-8@lg padding-y-lg">
 					<div class="text-component line-height-lg v-space-lg">
-						<p>Supported by MK Council, protospace is a new collaboration between <a href="https://madeinmk.com">Made in MK</a>, <a href="https://mkgeeknight.co.uk">MK Geek Night</a> and <a href="https://pooleyville.com">Pooleyville</a> to provide a dedicated physical and virtual space for the local tech community. Through this exciting new partnership, we want to champion the innovation happening in the local sector and create a fertile space for new collaborations and knowledge exchange.</p>
+						<p>Supported by MK Council, protospace is a new collaboration between <a href="https://madeinmk.com">Made in MK</a>, <a href="https://mkgeeknight.co.uk">MK Geek Night</a> and <a href="https://pooleyville.com">Pooleyville</a> to provide a dedicated physical and virtual space for the local tech community. Through this exciting new partnership, we want to champion the innovation happening in the local sector and create a nurturing space for new collaborations and knowledge exchange.</p>
 						
 						<p>A series of curated events will commence in 2021 shaped around three umbrella themes of <span class="dot-marker bg-accent" aria-hidden="true"></span> Sustainability, <span class="dot-marker bg-tertiary" aria-hidden="true"></span> Lifestyle and <span class="dot-marker bg-secondary" aria-hidden="true"></span> Business. Comprising talks, interviews, workshops, hackathons, pitches and networking, the programme will be delivered both online and in-person (when we are able to do so). We'll host a diverse range of industry leaders and creators, from near and far, exploring their ideas, experiences and work that have had, or hope to have, a positive impact on our lives.</p>
 						
@@ -164,8 +164,11 @@
 	</div>
 </section>
 
+<script src="assets/js/scripts.js"></script>
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script>
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js"></script>
-<script src="assets/js/scripts.js"></script>
+<!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" data-site="FNOJNWDB" defer></script>
+<!-- / Fathom -->
 </body>
 </html>
