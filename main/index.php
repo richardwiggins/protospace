@@ -75,7 +75,7 @@
             <p role="alert" class="emailoctopus-success-message color-accent"></p>
             <p role="alert" class="emailoctopus-error-message color-warning"></p>
             
-            <form action="https://emailoctopus.com/lists/c195f4e7-2258-11eb-a3d0-06b4694bee2a/members/embedded/1.3s/add"
+            <!-- <form action="https://emailoctopus.com/lists/c195f4e7-2258-11eb-a3d0-06b4694bee2a/members/embedded/1.3s/add"
                   method="post"
                   data-message-success="Thanks for subscribing!"
                   data-message-missing-email-address="Your email address is required."
@@ -86,6 +86,17 @@
                   data-message-unknown-error="Sorry, an unknown error has occurred. Please try again later."
                   class="emailoctopus-form grid gap-xxs"
                   data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+            > -->
+            <form action="https://emailoctopus.com/lists/c195f4e7-2258-11eb-a3d0-06b4694bee2a/members/embedded/1.3/add"
+                  method="post"
+                  data-message-success="Thanks for subscribing!"
+                  data-message-missing-email-address="Your email address is required."
+                  data-message-invalid-email-address="Your email address looks incorrect, please try again."
+                  data-message-bot-submission-error="This doesn't look like a human submission."
+                  data-message-consent-required="Please check the checkbox to indicate your consent."
+                  data-message-invalid-parameters-error="This form has missing or invalid fields."
+                  data-message-unknown-error="Sorry, an unknown error has occurred. Please try again later."
+                  class="emailoctopus-form"
             >
               <div class="emailoctopus-form-row col@xs min-width-0">
                 <label for="field_0" class="is-hidden">
@@ -165,7 +176,7 @@
 </section>
 
 <script src="assets/js/scripts.js"></script>
-<script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script>
+<!-- <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script> -->
 <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js"></script>
 <!-- Fathom - beautiful, simple website analytics -->
 <script src="https://cdn.usefathom.com/script.js" data-site="FNOJNWDB" defer></script>
